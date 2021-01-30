@@ -1,0 +1,5 @@
+@include('dashboard.header')
+@include('dashboard.navbar')
+@yield('content')
+@include('partials._session')
+@include('dashboard.footer')
